@@ -6,6 +6,36 @@ We take object and animals images from the Pascal VOC 2012 dataset as occluders.
 An occluded view includes two random objects pasted over the human bounding box. Object size and location inside the box are chosen at random. 
 This code has been produced following the work of I. Sárándi et al. [1] .
 
+## Data preparation
+
+This code assumes your dataset directory has the following structure:
+
+```
+h36m_path/
+├── S9
+│   ├── Images
+│       ├── Directions.54128969
+│           ├── frame_000001.jpg
+│           ├── frame_000002.jpg
+│           ├── ...
+│           └── frame_000MAX.jpg
+│       ├── ...
+│       ├── WalkTogether 1.60457274
+│           ├── ...
+│           └── frame_000MAX.jpg 
+│   ├── Boxes
+│       ├── Directions.54128969.npy
+│       ├── ...
+│       └── WalkTogether 1.60457274.npy
+│   ├── MyPoseFeatures
+│       ├── D3_Positions
+│           ├── Directions.cdf
+│           ├── ...
+│           └── WalkTogether 1.npy
+├── S11
+│   ├── ...
+```
+
 ## Disclaimer
 > We have NO permission to redistribute the Human3.6M dataset or parts of it. Please do NOT ask us for a copy of the Human3.6M dataset.
 

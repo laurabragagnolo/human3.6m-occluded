@@ -1,4 +1,4 @@
-# Human3.6-Occluded: Dataset Augmentation for Occluded Human Pose Estimation
+# Human3.6M-Occluded: Dataset Augmentation for Occluded Human Pose Estimation
 
 This repository provides code for generating the occluded version of the Human3.6M dataset used in our paper [Multi-view Pose Fusion for Occlusion-Aware 3D
 Human Pose Estimation](https://www.arxiv.org/abs/2408.15810) (presented at ACVR @ ECCV 2024). 

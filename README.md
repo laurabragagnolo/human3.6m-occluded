@@ -4,7 +4,7 @@ This repository provides code for generating the occluded version of the Human3.
 Human Pose Estimation](https://www.arxiv.org/abs/2408.15810) (presented at ACVR @ ECCV 2024). 
 We take object and animals images from the Pascal VOC 2012 dataset as occluders. Considering the four available camera views for each scene in the dataset, we partially cover the subject's body on three out of four views.
 An occluded view includes two random objects pasted over the human bounding box. Object size and location inside the box are chosen at random. 
-This code has been produced following the work of I. Sárándi et al. [2]
+This code has been produced following the work of I. Sárándi et al. [2].
 ## Data preparation
 
 This code assumes your dataset directory has the following structure:

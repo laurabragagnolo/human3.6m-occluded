@@ -39,5 +39,5 @@ h36m_path/
 > We have NO permission to redistribute the Human3.6M dataset or parts of it. Please do NOT ask us for a copy of the Human3.6M dataset.
 
 ## References
-[1] Bragagnolo, Laura, et al. "Multi-view Pose Fusion for Occlusion-Aware 3D Human Pose Estimation." arXiv preprint arXiv:2408.15810 (2024).
+[1] Bragagnolo, Laura, et al. "Multi-view Pose Fusion for Occlusion-Aware 3D Human Pose Estimation." arXiv preprint arXiv:2408.15810 (2024).  
 [2] Sárándi, István, et al. "How robust is 3D human pose estimation to occlusion?." in IEEE/RSJ Int. Conference on Intelligent Robots and Systems (IROS'18) Workshops, arXiv preprint arXiv:1808.09316 (2018).
